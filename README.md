@@ -84,7 +84,7 @@ message(paste("Concentration finale calculée:", C2_arrondi, "uM"))
 - La fonction `message()` sert à imprimer du texte dans la console R.
 - La fonction `paste()` sert à coller ensemble différents morceaux de texte et peut évaluer la valeur d'un objet, par exemple celle de C2. 
 
-
+Ici, chaque commande a été exécutée séquentiellement (de haut en bas) en respectant la priorité des parenthèses lorsqu'il y en a plusieurs, comme dans une équation mathématique. La dernière commande sert spécifiquement à imprimer du texte dans la console, ce qu'on observe quand on clique Source.
 
 
 
