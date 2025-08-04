@@ -32,7 +32,38 @@ Tout cela est très rudimentaire; l'objectif est simplement de montrer ce qu'on 
 ```
 runif(n=1, min=0, max=1)
 ```
-Ici, `runif()` est une fonction prédéfinie dans R. Elle requiert trois arguments, soit le nombre `n` de valeurs aléatoires qu'on veut avoir, et l'étendue dans laquelle cette valeur doit être pigée (ici, entre 0 et 1 inclusivement). Il existe des centaines de fonctions prédéfinies dans R qui servent à faire toutes sortes d'opérations; la génération de nombres aléatoires n'est qu'un exemple parmi d'autres. Pour une liste d'exemples, visitez ce site web: https://sparkbyexamples.com/r-programming/r-base-functions/ (en anglais).
+Ici, `runif()` est une fonction prédéfinie dans R. Elle requiert trois arguments, soit le nombre `n` de valeurs aléatoires qu'on veut avoir, et l'étendue dans laquelle cette valeur doit être pigée (ici, entre 0 et 1 inclusivement). Amusez-vous à changer ces arguments pour modifier le comportement de la fonction.
+
+Il existe des centaines de fonctions prédéfinies dans R qui servent à faire toutes sortes d'opérations; la génération de nombres aléatoires n'est qu'un exemple parmi d'autres. Pour une liste d'exemples, visitez ce site web: https://sparkbyexamples.com/r-programming/r-base-functions/ (en anglais).
+
+## 3. Installer RStudio
+
+Si R est le moteur, RStudio est le tableau de bord, le volant et les pédales. C'est une interface de développement intégrée (IDE) qui rend l'utilisation de R beaucoup plus simple et intuitive. Elle permet de: 
+- Écrire un script, soit une liste de commandes à exécuter séquentiellement, et de le sauvegarder ;
+- Voir les objets créés par l'utilisateur et visualiser leur contenu (e.g. des bases de données, des vecteurs, des figures)
+- Accéder facilement au manuel d'utilisation de n'importe quelle fonction pour comprendre comment elle fonctionne
+
+Pour l'installer, rendez-vous sur https://posit.co/download/rstudio-desktop/ . Le site devrait détecter automatiquement votre système d'exploitation et vous proposer le bon fichier à télécharger. Cliquez sur le bouton de téléchargement pour la version gratuite ("RStudio Desktop"), puis exécutez le fichier téléchargé et suivez les instructions.
+
+## 4. Créer un premier projet sur RStudio
+Il est bonne pratique de travailler en mode « projet » sur RStudio.
+
+1. Ouvrez RStudio.
+2. Allez dans le menu File > New Project...
+3. Choisissez New Directory
+4. Ensuite, choisissez New Project.
+5. Dans "Directory name", donnez un nom à votre projet, par exemple BIO310_projet
+6. Cliquez sur Browse... pour choisir où ce nouveau dossier sera créé sur votre ordinateur (je recommande fortement d'avoir un dossier BIO310 où centraliser tous vos travaux pour le cours)
+7. Cliquez sur Create Project.
+
+Ainsi, un dossier aura été créé dans votre ordinateur, lequel contiendra un fichier terminant en .Rproj. Dorénavant, pour utiliser RStudio pour ce cours, vous n'avez qu'à ouvrir ce fichier et RStudio sera lancé.
+
+
+
+
+
+
+
 
 
 
