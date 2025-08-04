@@ -4,8 +4,8 @@ R est un language de programmation qui permet, entre autres, de manipuler des do
 
 Pour s'y initier, il faut en apprendre la syntaxe de base et se familiariser avec des concepts particuliers, comme les *objets*, les *fonctions*, les *commandes* et les *script*. Mais avant tout, il faut l'installer !
 
-## Installer R
-Installer R sous Windows
+## 1. Installer R
+[Installer R sous Windows](https://cloud.r-project.org/bin/windows/base/)
 Installer R sous Mac
 
 
