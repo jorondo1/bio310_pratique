@@ -49,16 +49,29 @@ Pour l'installer, rendez-vous sur https://posit.co/download/rstudio-desktop/ . L
 Il est bonne pratique de travailler en mode « projet » sur RStudio.
 
 1. Ouvrez RStudio.
-2. Allez dans le menu File > New Project...
-3. Choisissez New Directory
-4. Ensuite, choisissez New Project.
-5. Dans "Directory name", donnez un nom à votre projet, par exemple BIO310_projet
-6. Cliquez sur Browse... pour choisir où ce nouveau dossier sera créé sur votre ordinateur (je recommande fortement d'avoir un dossier BIO310 où centraliser tous vos travaux pour le cours)
-7. Cliquez sur Create Project.
+2. Allez dans le menu **File** et cliquez sur** New Project...**
+3. Choisissez **New Directory**
+4. Ensuite, choisissez **New Project**.
+5. Dans le champ _Directory name_, donnez un nom à votre projet, par exemple _BIO310_projet_
+6. Cliquez sur **Browse...** pour choisir où ce nouveau dossier sera créé sur votre ordinateur (je recommande fortement d'avoir un dossier BIO310 où centraliser tous vos travaux pour le cours)
+7. Cliquez sur **Create Project**.
 
 Ainsi, un dossier aura été créé dans votre ordinateur, lequel contiendra un fichier terminant en .Rproj. Dorénavant, pour utiliser RStudio pour ce cours, vous n'avez qu'à ouvrir ce fichier et RStudio sera lancé.
 
+## 5. Créer un premier script R
+Un script est essentiellement un petit programme, soit une suite d'instructions à exécuter séquentiellement. Par exemple, un script pourrait contenir une série de commandes permettant de :
+1. Importer des données brutes
+2. Extraire un sous-ensemble de ces données
+3. Produire une figure permettant de visualiser ces données
+4. Tester une hypothèse à l'aide d'un test statistique appliqué à ces données
+5. Exporter les résultats du test sous forme de fichier texte et la figure sous forme d'image.
 
+Ainsi, ce programme prendrait en entrée un jeu de données et produirait, en sortie, un fichier texte et une image.
+
+RStudio nous permet de construire un tel programme – un script – de manière interactive en vérifiant que chaque fonction R produise bel et bien ce qu'on attend d'elle. 
+
+Pour créer votre premier script, 
+1. Allez dans le menu **File** et cliquez sur **R Script**
 
 
 
