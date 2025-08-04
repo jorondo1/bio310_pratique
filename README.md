@@ -68,33 +68,21 @@ Un script est essentiellement un petit programme, soit une suite d'instructions 
 
 Le language R est capable de faire chacune de ces étapes. Pour y arriver, on doit apprendre à utiliser toutes sortes de fonctions pour manipuler nos données, ce que nous pratiquerons dans le cours. RStudio nous permet de construire un tel programme – un script – de manière interactive en vérifiant que chaque fonction R produise bel et bien ce qu'on attend d'elle. Cela permet de facilement trouver nos erreurs et de produire un programme qui s'exécute du début à la fin.
 
-Pour créer votre premier script, 
+Créons un premier script très simpliste, qui servira à calculer la concentration finale suite à une dilution :  
 1. Allez dans le menu **File** et cliquez sur **R Script**. Un nouveau fichier ouvrira dans le panneau supérieur gauche.
 2. Allez dans le menu **File** et cliquez sur **Save as...** pour enregistrer ce fichier dans votre dossier de travail
-3. Inscrivez
-
+3. Inscrivez-y les fonctions ci-bas, puis cliquez sur le bouton "Source" en haut à droite de la fenêtre du script.
 ```
-# Valeurs connues
 C1 <- 100
 V1 <- 50          
 V2 <- 500           
-
-# Valeur inconnue
 C2 <- (C1 * V1) / V2
-
-# Afficher les résultats dans la console de manière explicite: 
-# La fonction message() sert à imprimer du texte dans la console.
-message("--- Dilution ---")
-# La fonction paste() sert à coller ensemble différents morceaux de texte
-# et peut évaluer la valeur d'un objet, par exemple celle de C1 :
-message(paste("Concentration initiale :", C1, "uM"))
-message(paste("Volume initial :", V1, "uL"))
-message(paste("Volume final :", V2, "uL"))
-message(paste("Concentration finale calculée:", round(C2, 2), "uM"))
+C2_arrondi <- round(C2, digits = 2)
+message(paste("Concentration finale calculée:", C2_arrondi, "uM"))
 ```
-
-
-
+- La fonction `round()` sert à arrondir une valeur numérique; l'argument `digits =` spécifie combien décimales conserver.
+- La fonction `message()` sert à imprimer du texte dans la console R.
+- La fonction `paste()` sert à coller ensemble différents morceaux de texte et peut évaluer la valeur d'un objet, par exemple celle de C2. 
 
 
 
