@@ -71,7 +71,7 @@ Le language R est capable de faire chacune de ces étapes. Pour y arriver, on do
 Créons un premier script très simpliste, qui servira à calculer la concentration finale suite à une dilution :  
 1. Allez dans le menu **File** et cliquez sur **R Script**. Un nouveau fichier ouvrira dans le panneau supérieur gauche.
 2. Allez dans le menu **File** et cliquez sur **Save as...** pour enregistrer ce fichier dans votre dossier de travail
-3. Inscrivez-y les fonctions ci-bas, puis cliquez sur le bouton "Source" en haut à droite de la fenêtre du script.
+3. Inscrivez-y les fonctions ci-bas et sauvegardez votre script. Je vous encourage fortement à écrire le tout vous-même plutôt qu'à copier coller, l'objectif étant de vous rendre autonome. À chaque ligne, vous pouvez taper les deux touches ctrl+Enter (ou cmd+Enter) pour exécuter une ligne en isolation et vous assurer qu'elle ne produise pas d'erreur.
 ```
 C1 <- 100
 V1 <- 50          
@@ -82,7 +82,9 @@ message(paste("Concentration finale calculée:", C2_arrondi, "uM"))
 ```
 - La fonction `round()` sert à arrondir une valeur numérique; l'argument `digits =` spécifie combien décimales conserver.
 - La fonction `message()` sert à imprimer du texte dans la console R.
-- La fonction `paste()` sert à coller ensemble différents morceaux de texte et peut évaluer la valeur d'un objet, par exemple celle de C2. 
+- La fonction `paste()` sert à coller ensemble différents morceaux de texte et peut évaluer la valeur d'un objet, par exemple celle de C2.
+
+4. Finalement, cliquez sur le bouton "Source" en haut à droite de la fenêtre du script pour exécuter ce script en entier. 
 
 Ici, chaque commande a été exécutée séquentiellement (de haut en bas) en respectant la priorité des parenthèses lorsqu'il y en a plusieurs, comme dans une équation mathématique. La dernière commande sert spécifiquement à imprimer du texte dans la console, ce qu'on observe quand on clique Source.
 
