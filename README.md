@@ -8,10 +8,13 @@ Pour s'y initier, il faut en apprendre la syntaxe de base et se familiariser ave
 R est le "moteur" qui exécute le code. C'est la première chose à installer. 
 1. Rendez-vous sur le site officiel du CRAN (Comprehensive R Archive Network) : https://cran.r-project.org/
 2. Cliquez sur le lien correspondant à votre système d'exploitation (Windows, Mac, ou Linux).  
-   Pour Windows : Cliquez sur "base", puis sur le gros lien de téléchargement en haut de la page ("Download R-X.X.X for Windows").  
-   Pour Mac : Choisissez le fichier .pkg correspondant à votre processeur (Apple Silicon M1/M2/M3 ou Intel).
+   **Pour Windows** : Cliquez sur "base", puis sur le gros lien de téléchargement en haut de la page ("Download R-X.X.X for Windows").  
+   **Pour Mac** : Choisissez le fichier .pkg correspondant à votre processeur (Apple Silicon M1/M2/M3 ou Intel).
 3. Exécutez le fichier téléchargé et suivez les instructions.
 
 ## 2. Tester la console R
-Une fois installé, ouvrez R dans vos applications. 
-
+Une fois installé, ouvrez R dans vos applications. La fenêtre qui s'ouvre s'appelle une console. Chaque fois qu'on y entre une commande et qu'on tape la touche _retour_, celle-ci s'exécute et le résultat s'affiche. Une utilisation très banale est celle d'une calculatrice. Tapez, par exemple, 
+```
+sqrt(9)
+```
+et vous obtiendrez la racine carrée (**sq**uare **r**oo**t**) de 9, soit 3.
