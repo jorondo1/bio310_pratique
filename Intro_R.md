@@ -71,7 +71,7 @@ Le language R est capable de faire chacune de ces étapes. Pour y arriver, on do
 Créons un premier script très simpliste, qui servira à calculer la concentration finale suite à une dilution :  
 1. Allez dans le menu **File** et cliquez sur **R Script**. Un nouveau fichier ouvrira dans le panneau supérieur gauche.
 2. Allez dans le menu **File** et cliquez sur **Save as...** pour enregistrer ce fichier dans votre dossier de travail
-3. Inscrivez-y les fonctions ci-bas et sauvegardez votre script. Je vous encourage fortement à écrire le tout vous-même plutôt qu'à copier coller, l'objectif étant de vous rendre autonome. À chaque ligne, vous pouvez taper les deux touches ctrl+Enter (ou cmd+Enter) pour exécuter une ligne en isolation et vous assurer qu'elle ne produise pas d'erreur.
+3. Inscrivez-y les fonctions ci-bas et sauvegardez votre script. Je vous encourage fortement à écrire le tout vous-même plutôt qu'à copier coller, l'objectif étant de vous rendre autonome en vous laissant faire vos erreurs. À chaque ligne, vous pouvez utiliser le raccourci-clavier ctrl+Enter (ou cmd+Enter pour Mac) pour exécuter une ligne en isolation et vous assurer qu'elle ne produise pas d'erreur. Le bouton Run en haut à droite du script fait la même chose.
 ```
 C1 <- 100
 V1 <- 50          
