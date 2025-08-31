@@ -10,7 +10,8 @@ R est le "moteur" qui exécutera les calculs. C'est la première application à 
 2. Cliquez sur le lien correspondant à votre système d'exploitation (Windows, Mac, ou Linux).  
    **Pour Windows** : Cliquez sur "base", puis sur le gros lien de téléchargement en haut de la page ("Download R-X.X.X for Windows").  
    **Pour Mac** : Choisissez le fichier .pkg correspondant à votre processeur (Apple Silicon M1/M2/M3 ou Intel).
-3. Exécutez le fichier téléchargé et suivez les instructions.
+   * Note : •	Si vous ne savez pas quel type de processeur vous avez, lire ceci : https://support.apple.com/fr-ca/116943
+4. Exécutez le fichier téléchargé et suivez les instructions.
 
 ## 2. Tester la console R
 Une fois installé, ouvrez R dans vos applications. La fenêtre qui s'ouvre s'appelle une console. Chaque fois qu'on y entre une commande et qu'on tape la touche _retour_, on demande à R de l'exécuter et le résultat s'affiche. Une utilisation très banale est celle d'une calculatrice. Tapez, par exemple, 
