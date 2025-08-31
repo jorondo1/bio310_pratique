@@ -50,7 +50,7 @@ Pour l'installer, rendez-vous sur https://posit.co/download/rstudio-desktop/ . L
 Il est bonne pratique de travailler en mode « projet » sur RStudio.
 
 1. Ouvrez l'application RStudio.
-2. Allez dans le menu **File** et cliquez sur** New Project...**
+2. Allez dans le menu **File** et cliquez sur **New Project...**
 3. Choisissez **New Directory**
 4. Ensuite, choisissez **New Project**.
 5. Dans le champ _Directory name_, donnez un nom à votre projet, par exemple _BIO310_projet_
