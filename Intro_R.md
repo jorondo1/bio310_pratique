@@ -49,7 +49,7 @@ Pour l'installer, rendez-vous sur https://posit.co/download/rstudio-desktop/ . L
 ## 4. Créer un premier projet sur RStudio
 Il est bonne pratique de travailler en mode « projet » sur RStudio.
 
-1. Ouvrez RStudio.
+1. Ouvrez l'application RStudio.
 2. Allez dans le menu **File** et cliquez sur** New Project...**
 3. Choisissez **New Directory**
 4. Ensuite, choisissez **New Project**.
