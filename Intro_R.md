@@ -33,7 +33,7 @@ Tout cela est très rudimentaire; l'objectif est simplement de montrer ce qu'on 
 ```
 runif(n=1, min=0, max=1)
 ```
-Ici, `runif()` est une fonction prédéfinie dans R. Elle requiert trois arguments, soit le nombre `n` de valeurs aléatoires qu'on veut avoir, et l'étendue dans laquelle cette valeur doit être pigée (ici, entre 0 et 1 inclusivement). Amusez-vous à changer ces arguments pour modifier le comportement de la fonction.
+Ici, `runif()` est une fonction prédéfinie dans R. Elle requiert trois arguments, soit le nombre `n` de valeurs aléatoires qu'on veut avoir, et l'étendue dans laquelle cette valeur doit être pigée (ici, on a spécifié entre `min=0` et `max=1` inclusivement). Amusez-vous à changer ces arguments pour modifier le comportement de la fonction.
 
 Il existe des centaines de fonctions prédéfinies dans R qui servent à faire toutes sortes d'opérations; la génération de nombres aléatoires n'est qu'un exemple parmi d'autres. Pour une liste d'exemples, visitez ce [site web](https://sparkbyexamples.com/r-programming/r-base-functions/) (en anglais).
 
