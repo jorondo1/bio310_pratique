@@ -90,5 +90,5 @@ message(paste("Concentration finale calculée:", C2_arrondi, "uM"))
 Ici, chaque commande a été exécutée séquentiellement (de haut en bas) en respectant la priorité des parenthèses lorsqu'il y en a plusieurs, comme dans une équation mathématique. La dernière commande sert spécifiquement à imprimer du texte dans la console, ce qu'on observe quand on clique Source.
 
 # Déposez une capture d'écran sur Moodle
-Pour me montrer que vous avez complété cet exercice et que RStudio est bien installé, prenez une capture d'écran où l'on voit bien ce script et sa sortie dans la console. Déposez cette capture d'écran sur Moodle avant la première séance du cours, soit au plus tard à 10h00 AM le mardi 16 septembre 2025.
+Pour me montrer que vous avez complété cet exercice et que RStudio est bien installé, prenez une capture d'écran où l'on voit bien ce script et sa sortie dans la console. Déposez cette capture d'écran sur Moodle avant la première séance du cours (vérifiez le devoir sur Moodle pour connaître l'échéance exacte).
 
