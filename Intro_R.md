@@ -8,19 +8,19 @@ Pour s'y initier, il faut en apprendre la syntaxe de base et se familiariser ave
 R est le "moteur" qui exécutera les calculs. C'est la première application à installer. 
 1. Rendez-vous sur le site officiel du CRAN (Comprehensive R Archive Network) : https://cran.r-project.org/
 2. Cliquez sur le lien correspondant à votre système d'exploitation (Windows, Mac, ou Linux).  
-   **Pour Windows** : Cliquez sur "base", puis sur le gros lien de téléchargement en haut de la page ("Download R-X.X.X for Windows").  
-   **Pour Mac** : Choisissez le fichier .pkg correspondant à votre processeur (Apple Silicon M1/M2/M3 ou Intel).
-   * Note : •	Si vous ne savez pas quel type de processeur vous avez, lire ceci : https://support.apple.com/fr-ca/116943
+   **Pour Windows** : Cliquez sur `base`, puis sur le gros lien de téléchargement en haut de la page (`Download R-X.X.X for Windows`).  
+   **Pour Mac** : Choisissez le fichier `.pkg` correspondant à votre processeur (Apple Silicon M1/M2/M3 ou Intel).
+   * Note : •	Si vous ne savez pas quel type de processeur vous avez, lire ceci : [https://support.apple.com/fr-ca/116943](https://support.apple.com/fr-ca/116943)
 4. Exécutez le fichier téléchargé et suivez les instructions.
 
 ## 2. Tester la console R
-Une fois installé, ouvrez R dans vos applications. La fenêtre qui s'ouvre s'appelle une console. Chaque fois qu'on y entre une commande et qu'on tape la touche _retour_, on demande à R de l'exécuter et le résultat s'affiche. Une utilisation très banale est celle d'une calculatrice. Tapez, par exemple, 
+Une fois installé, ouvrez R dans vos applications. La fenêtre qui s'ouvre s'appelle une console. Chaque fois qu'on y écrit une commande et qu'on tape la touche _retour_, on demande à R de l'exécuter et le résultat s'affiche. Une utilisation très banale est celle d'une calculatrice. Tapez, par exemple, 
 ```
 sqrt(9)
 ```
 et vous obtiendrez la racine carrée (**sq**uare **r**oo**t**) de 9, soit 3. 
 
-R est un language dit « orienté objet ». Ainsi, on travaille typiquement en sauvant des valeurs dans un objet qui porte un nom, pour pouvoir le réutiliser plus tard sans devoir recalculer cette valeur à chaque fois. Par exemple, créons l'objet valeur_A et multiplions-la par deux :
+R est un language dit « orienté objet ». Ainsi, on travaille typiquement en sauvant des valeurs dans un objet qui porte un nom, pour pouvoir le réutiliser plus tard sans devoir recalculer cette valeur à chaque fois. Par exemple, créons l'objet `valeur_A` et multiplions-la par deux :
 ```
 valeur_A = sqrt(9)
 valeur_A
@@ -35,7 +35,7 @@ runif(n=1, min=0, max=1)
 ```
 Ici, `runif()` est une fonction prédéfinie dans R. Elle requiert trois arguments, soit le nombre `n` de valeurs aléatoires qu'on veut avoir, et l'étendue dans laquelle cette valeur doit être pigée (ici, entre 0 et 1 inclusivement). Amusez-vous à changer ces arguments pour modifier le comportement de la fonction.
 
-Il existe des centaines de fonctions prédéfinies dans R qui servent à faire toutes sortes d'opérations; la génération de nombres aléatoires n'est qu'un exemple parmi d'autres. Pour une liste d'exemples, visitez ce site web: https://sparkbyexamples.com/r-programming/r-base-functions/ (en anglais).
+Il existe des centaines de fonctions prédéfinies dans R qui servent à faire toutes sortes d'opérations; la génération de nombres aléatoires n'est qu'un exemple parmi d'autres. Pour une liste d'exemples, visitez ce [site web](https://sparkbyexamples.com/r-programming/r-base-functions/) (en anglais).
 
 ## 3. Installer RStudio
 
@@ -44,7 +44,7 @@ Si R est le moteur, RStudio est le tableau de bord, le volant et les pédales. C
 - Voir les objets créés par l'utilisateur et visualiser leur contenu (e.g. des bases de données, des vecteurs, des figures)
 - Accéder facilement au manuel d'utilisation de n'importe quelle fonction pour comprendre comment elle fonctionne
 
-Pour l'installer, rendez-vous sur https://posit.co/download/rstudio-desktop/ . Le site devrait détecter automatiquement votre système d'exploitation et vous proposer le bon fichier à télécharger. Cliquez sur le bouton de téléchargement pour la version gratuite ("RStudio Desktop"), puis exécutez le fichier téléchargé et suivez les instructions.
+Pour l'installer, [rendez-vous sur ce lien](https://posit.co/download/rstudio-desktop/). Le site devrait détecter automatiquement votre système d'exploitation et vous proposer le bon fichier à télécharger. Cliquez sur le bouton de téléchargement pour la version gratuite ("RStudio Desktop"), puis exécutez le fichier téléchargé et suivez les instructions.
 
 ## 4. Créer un premier projet sur RStudio
 Il est bonne pratique de travailler en mode « projet » sur RStudio.
